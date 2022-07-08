@@ -1,7 +1,7 @@
 ## ExpansionNet: exploring the sequence length bottleneck in the Transformer for Image Captioning
 
 This repository contains the implementation code of [ExpansionNet: exploring the sequence length bottleneck 
-in the Transformer for Image Captioning](https://arxiv.org/abs/2207.03327v1). <br><br>
+in the Transformer for Image Captioning](https://arxiv.org/abs/2207.03327v1). <br>
 
 DOI: https://doi.org/10.48550/arXiv.2207.03327
 
@@ -31,7 +31,7 @@ features_generation.py --tsv_features_path src_file_path
 
 Compressed captions file can be downloaded [here](https://drive.google.com/drive/folders/1z-kVvVsOhcW6QSPqB27h5ta5XsRGG5sv?usp=sharing) and is 
 suggested to be extracted in the directory `github_ignore_material/raw_data/`, the default directory serving the purpose of
-storing heavy data. <br><br>
+storing heavy data. <br>
 
 ## Training
 
@@ -58,7 +58,7 @@ due to the stochastic nature of the training, for this reason, a pretrained mode
 provided 
 [here](https://drive.google.com/drive/folders/1z-kVvVsOhcW6QSPqB27h5ta5XsRGG5sv?usp=sharing).
  Additionally, captions generated using ExpansionNet on the test split are provided in the 
-`res_test_karpathy.json` file. 
+`res_test_karpathy.json` file. <br>
 
 
 ## Evaluation
@@ -74,6 +74,8 @@ python distributed_test.py --N_enc 3 --N_dec 3 --enc_expand_n 64 --dec_expand_n 
         --save_path ./github_ignore_material/saves/pretrained_model.pth 
         --features_path ./github_ignore_material/raw_data/mscoco2014_features.hdf5 
 ```
+
+<b>
 
 ## Acknowledgments
 
