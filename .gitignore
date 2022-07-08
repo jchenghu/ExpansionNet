@@ -5,7 +5,7 @@
 eval/spice/lib/stanford-corenlp-3.6.0.jar
 eval/spice/lib/stanford-corenlp-3.6.0-models.jar
 **/__pycache__/*
-**/tmp/
+**/tmp/*
 !/eval/spice/tmp/.gitkeep
 **/cache/*
 !/eval/spice/cache/.gitkeep
