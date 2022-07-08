@@ -67,7 +67,6 @@ Once training is completed, checkpoints can be passed to the testing script
 `distributed_test.py`. For instance, if features are extracted in the default directory 
 and the pre-trained model is moved in the `github_ignore_material/saves/` folder,
  the evaluation is performed by:
-
 ```
 python distributed_test.py --N_enc 3 --N_dec 3 --enc_expand_n 64 --dec_expand_n 16
         --num_gpus 1 --ddp_sync_port 12390 --eval_parallel_batch_size 4 --eval_beam_sizes [5] --model_dim 768 --is_ensemble False 
@@ -75,15 +74,14 @@ python distributed_test.py --N_enc 3 --N_dec 3 --enc_expand_n 64 --dec_expand_n 
         --features_path ./github_ignore_material/raw_data/mscoco2014_features.hdf5 
 ```
 
-<b>
-
 ## Acknowledgments
 
 We thank the awesome PyTorch team and the following repositories:
+
 * https://github.com/ruotianluo/ImageCaptioning.pytorch
 * https://github.com/JDAI-CV/image-captioning
 * https://github.com/husthuaan/AoANet
 * https://github.com/peteanderson80/bottom-up-attention
-<br></br>
+<br>
 
 
