@@ -42,7 +42,7 @@ if __name__ == "__main__":
 
                 how_many_items += 1
                 if how_many_items % 1000 == 0:
-                    print("Converted: " + str(how_many_items)+ " -> " + str(feature.shape))
+                    print("Converted: " + str(how_many_items))
 
         print("Num items in " + str(file_path) + " " + str(how_many_items))
 

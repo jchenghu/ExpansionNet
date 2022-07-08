@@ -26,7 +26,7 @@ The MS-COCO 2014 visual inputs are gently provided by
 using the ResNet-101 backbone. The data can be converted into the required format of 
 this repository using our `features_generation.py` script by specifing the source file location:
 ```
-features_generation.py --tsv_features_path src_file_path
+python features_generation.py --tsv_features_path trainval_file_path
 ```
 
 Compressed captions file can be downloaded [here](https://drive.google.com/drive/folders/1z-kVvVsOhcW6QSPqB27h5ta5XsRGG5sv?usp=sharing) and is 
